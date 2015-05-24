@@ -13,16 +13,16 @@ The script starts reading the following tables:
 - features.txt
 - activity_labels.txt
 
-The script carries on appending *test* and *train* values to create two new datasets:
+The script carries on appending **test** and **train** values to create two new datasets:
 - x_values -> result of append X_train values to X_test values.
 - y_values -> result of append Y_train values to Y_test values.
 
-Then the relevant means and standard deviations are identified and allocated on *measurements* dataset
+Then the relevant means and standard deviations are identified and allocated on **measurements** dataset
 
-*specific_dataset* represents the *x_values* showing only the measurements on the mean and standard deviation for each measurement.
+**specific_dataset** represents the **x_values** showing only the measurements on the mean and standard deviation for each measurement.
 
 Afterward descriptive activity names were used to name the activities in the data set.
 
-Finally *specific_dataset* is arranged, grouped by both subject and activity and each column is summarized with mean() function to generate the tidy data 
+Finally **specific_dataset** is arranged, grouped by both subject and activity and each column is summarized with mean() function to generate the tidy data. 
 
 Please refer to CodeBook.md for further details regarding the variables, the data, and transformations performed to clean up the data.
