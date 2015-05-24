@@ -25,3 +25,4 @@ Afterward descriptive activity names were used to name the activities in the dat
 
 Finally *specific_dataset* is arranged, grouped by both subject and activity and each column is summarized with mean() function to generate the tidy data 
 
+Please refer to CodeBook.md for further details regarding the variables, the data, and transformations performed to clean up the data.
